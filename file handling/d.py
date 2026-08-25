@@ -1,0 +1,5 @@
+fo = open("f2.txt","w")
+fo.write("hey ")
+fo.write("viraj\n")
+fo.write("rubaba\n")
+fo.close()
