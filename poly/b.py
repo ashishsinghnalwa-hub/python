@@ -1,4 +1,4 @@
-class laptop():
+class laptop():                                            #init means initializing the class
     def __init__(self):
         self.__sprice = 900
         self.asprice = 360

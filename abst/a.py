@@ -1,4 +1,4 @@
-from abc import ABC,abstractclassmethod
+from abc import ABC,abstractclassmethod    #abstractmethod means the method which is declared but not implemented
 class animal(ABC):
     def behave(self):
         pass
