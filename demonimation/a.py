@@ -59,9 +59,10 @@ def topwin():
             amount = int(entry.get())
             note2000 = amount // 2000 #// means to divide the amount by 2000 and get the quotient
             amount = amount % 2000 #% means to divide the amount by 2000 and get the remainder
-            amount = amount % 500
-            note500 = amount // 500
-            note100 = amount // 100
+            amount = amount // 500
+            note500 = amount % 500
+            note100 = amount // 100 
+            note100 = amount % 100
 
             t1.delete(0, END) #delete means to delete the previous value in the entry box
             t2.delete(0, END)
