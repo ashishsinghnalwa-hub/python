@@ -7,4 +7,3 @@ while l:
     l=fo.readline()
     print(l,end="")
 print("total no. of lines : ",c)
-
