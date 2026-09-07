@@ -1,12 +1,12 @@
-def onssquretime(n):
+def quadratic_time(number):
     iterations = 0
-    for i in range(n):
-        for e in range(n):
-            iterations +=1
-        print("")
-    print("when n is: ", n, "iterations: ", iterations, "\n")
-onssquretime(10)
-onssquretime(20)
-onssquretime(30)
-print("\n write every "n" the time taken equals n^2")
-print("o(n^2) time complexity")
+    for outer_index in range(number):
+        for inner_index in range(number):
+            iterations += 1
+        print()
+    print("When n is:", number, "iterations:", iterations, "\n")
+
+quadratic_time(10)
+quadratic_time(20)
+quadratic_time(30)
+print('\nThe number of iterations grows as n^2: O(n^2).')
