@@ -15,3 +15,4 @@ o1.__sprice = 1000
 o1.info()
 o1.change_prize(1500,1234)
 o1.info()
+/create-agent
